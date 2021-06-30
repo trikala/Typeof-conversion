@@ -1,0 +1,68 @@
+#input
+Teacher_id = input("enter your id - ")
+Teacher_name = input("enter your name - ")
+Teacher_age = input ("enter your age - ")
+Gender = input("enter your gender")
+Address = input("enter your Address - ")
+Teacher_salary = input("enter your salary - ")
+Are_you_married = input(" are you married enter in True/False ")
+
+print(Teacher_id,type(Teacher_id))
+print(Teacher_name,type(Teacher_name))
+print(Teacher_age,type(Teacher_age))
+print(Gender,type(Gender))
+print(Address,type(Address))
+print(Teacher_salary,type(Teacher_age))
+print(Are_you_married,type(Are_you_married)
+
+#Output
+enter your id 201
+enter your name PArth
+enter your age 27
+enter your genger male
+enter your Address E block kamla nagar
+enter your salary 50545
+are you married enter in True/False false
+ 201 <class 'str'>
+ PArth <class 'str'>
+ 27 <class 'str'>
+ male <class 'str'>
+ E block kamla nagar <class 'str'>
+ 50545 <class 'str'>
+ false <class 'str'>
+
+#input
+Teacher_id = float(input("enter your id - "))
+Teacher_name = input("enter your name - ")
+Teacher_age = bool(input ("enter your age - "))
+Gender = input("enter your gender - ")
+Address = str( input("enter your Address - "))
+Teacher_salary =int(input("enter your salary - "))
+Are_you_married = str(input(" are you married enter in True/False - "))
+
+print(Teacher_id,type(Teacher_id))
+print(Teacher_name,type(Teacher_name))
+print(Teacher_age,type(Teacher_age))
+print(Gender,type(Gender))
+print(Address,type(Address))
+print(Teacher_salary,type(Teacher_salary))
+print(Are_you_married,type(Are_you_married))
+
+#output
+enter your id - 201
+enter your name - Parth
+enter your age - 27
+enter your gender - Male
+enter your Address - E block kamla nagar
+enter your salary - 50545
+are you married enter in True/False - false
+201.0 <class 'float'>
+Parth <class 'str'>
+True <class 'bool'>
+Male <class 'str'>
+E block kamla nagar <class 'str'>
+50545 <class 'int'>
+false <class 'str'>
+
+
+
